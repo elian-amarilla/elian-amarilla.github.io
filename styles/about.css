@@ -1,0 +1,46 @@
+#me{
+    padding: 10px 15vw
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+#leer{
+    margin-bottom: 15px;
+}
+#cv{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:1150px){
+    img{
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .description{
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media  only screen and (max-width:500px) {
+    img{
+        height: 200px;
+    }
+    #me{
+        padding: 10px 10vw;
+    }
+}
